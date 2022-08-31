@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Score Keep</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/ScoreKeeper/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container">
+        <img src="./images/die.jpeg" alt="ping pong paddles"><br>
+        <h1>Score Keeper</h1><br>
+        <div class="containercontent">
+            <hr>
+            <h2> <span id="p1Display">0</span> to <Span id="p2Display">0</Span></h2>
+            <p>Use the buttons below to keep score. <br> Playing to : <select name="" id="playTo">
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select></p>
+        </div>
+        <div class="btncontainer">
+            <button id="p1Button">+1 Player One</button>
+            <button id="p2Button">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="/ScoreKeeper/script.js" async defer></script>
+</body>
+
+</html>

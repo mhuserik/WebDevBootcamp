@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forms Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <h1>
+        Forms Demo
+    </h1>
+
+    <!-- label will focus the form so when you click on the text it will select the box
+    make sure your labels are correct if facing the world -->
+
+    <!-- A button in the form will always submit the form.  -->
+
+    <!-- Name attribute is crucial to db categorization -->
+    <form action="/search" autocomplete="on" method="GET" role="search">
+        <label for="username">Enter a username</label>
+        <input id="username" type="text" placeholder="Username" name="Username">
+        <label for="password">Enter password</label>
+        <input id="password" type="password" placeholder="Enter password" name="password">
+        <button>Submit</button><br>
+        <input type="color">
+        <input type="number">
+        <input type="datetime-local">
+
+    </form>
+
+    <form action="https://google.com/search">
+        <input type="text" name="q">
+        <button>Search google</button>
+    </form>
+
+    <form action="https://google.com/search">
+        <input type="text" name="q">
+        <button>Search google</button>
+
+        <p>
+            <input type="radio" name="size" id="">
+            <input type="radio" name="size" id="">
+            <input type="radio" name="size" id="">
+        </p>
+
+        <p>
+          <label for="meal">Please select an animal</label>
+
+          <select name="pets" id="pet-select">
+                <option value="">Choose a pet</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Bunny"selected>Bunny</option>
+                <option value="Chicken">Chicken</option>
+              </select>
+        </p>
+
+        <p> <label for="cheese">Amount of cheese</label>
+          <input type="range" id="cheese" min="1" max="30" name="cheese_level">
+        </p>
+
+    </form>
+
+
+   <h2>Validation Demo</h2>
+   <form  action="/dummy">
+     <label for="first">Enter first name</label>
+     <input type="text" name="first" id="first">
+     <p>
+       <label for="username">Username</label>
+       <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+     </p>
+
+     <button>submit</button>
+
+
+   </form>
+
+
+
+
+
+
+
+
+    <script src="" async defer></script>
+</body>
+
+</html>

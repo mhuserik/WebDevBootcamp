@@ -1,0 +1,45 @@
+nav {
+  display: block;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 250%;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(104, 104, 104);
+
+}
+
+
+h1 {
+    color: rgb(232, 232, 232);
+}
+h2,h3 {
+    text-align: center;
+}
+
+footer {
+  display: block;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("./img/B2M3MHHJORGMGSEJTS6RBEOHXE.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+

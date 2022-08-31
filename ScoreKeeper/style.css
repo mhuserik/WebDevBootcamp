@@ -1,0 +1,105 @@
+img{
+ width: 100%;
+}
+body {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Changa', sans-serif;
+    background-color: rgb(244, 244, 244);
+}
+
+h1 {
+ justify-content: center;
+ text-align: center;
+}
+
+button {
+    width: 33.33%;
+    height: 10vh;
+    border-radius: 10px;
+    border: none;
+    margin: 2%;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: grey;
+}
+
+hr {
+    margin-left: -7%;
+}
+
+select{
+ width: 10%;
+ text-align: center;
+ background-color: rgb(244, 244, 244);
+ border: none;
+ border-radius: 10px;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  overflow: hidden;
+  margin: 0;
+  box-shadow: 2px 2px 20px 2px lightgray;
+  width: 33.33%;
+  margin-top: 5%;
+  padding: 0%;
+  border-radius: 15px;
+
+
+  
+}
+
+.containercontent{
+        align-items: left;
+        margin-left: 5%;
+
+
+
+    }
+
+.btncontainer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#reset{
+    background-color: rgb(237, 71, 71);
+}
+
+#reset:hover{
+    background-color: rgb(189, 57, 57);
+    transition: .5s ease;
+}
+
+#p1Button{
+    background-color: rgb(255, 114, 231);
+}
+#p1Button:hover{
+    background-color: rgb(194, 83, 176);
+    transition: .5s ease;
+}
+
+#p2Button{
+    background-color: rgb(109, 182, 221);
+}
+
+#p2Button:hover{
+    background-color: rgb(87, 146, 177);
+    transition: .5s ease;
+}
+
+.winner{
+    color: rgb(24, 252, 89);
+}
+
+.loser{
+    color: rgb(252, 24, 24);
+}
