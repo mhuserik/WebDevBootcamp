@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+</head>
+<body>
+    <!-- This syntax is better for more complex html with more output lines. -->
+    <h1>Your random number from 1-10 is: <%= rand %> </h1>
+    <% if (rand % 2 === 0) { %>
+     <h2>Your number is even!</h2>
+    <% } else { %>  
+     <h2> Your number is odd!</h2> 
+     <% } %>
+
+     <!-- Another way to write this if else in one line -->
+     <h3> Your number is <%= rand%2===0 ? 'EVEN' : 'ODD' %>!</h3>
+     
+
+</body>
+</html>
